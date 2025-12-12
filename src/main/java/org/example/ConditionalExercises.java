@@ -5,10 +5,7 @@ public class ConditionalExercises {
         // Replace the line below with code that returns true if x is less than 5, and false otherwise
         // (use an if statement with an else block.)
        // return (x<5);
-        if(x < 5)
-            return true;
-        else
-            return false;
+        return x < 5;
     }
 
     public String getAgeGroup(int age) {
@@ -29,12 +26,7 @@ public class ConditionalExercises {
         // Replace the line below with code that returns true if password is at least 8 characters long
         // and false otherwise
         // (use an if statement with an else block.)
-        if(passwordLength > 7){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return password.length() >= 8;
 
     }
 }
