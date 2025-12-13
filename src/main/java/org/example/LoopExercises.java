@@ -17,7 +17,7 @@ public class LoopExercises {
         // (use a while loop with a sum variable and a counter variable)
         int sum = 0;
         int counter = 1;
-        while ((counter < n)) {
+        while ((counter <= n)) {
 
             sum += counter;
             if(sum % 2 == 0) {
